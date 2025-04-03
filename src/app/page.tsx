@@ -6,9 +6,9 @@ import { Topic } from '@/components/topic'
 import { useState } from "react"
 import { useEffect } from "react"
 
-const topicsURL = "https://raw.githubusercontent.com/[your GitHub handle]/fabcon-flashcards-workshop-site/refs/heads/main/src/topics.json"
+const topicsURL = "https://raw.githubusercontent.com/pranshujaryal/fabcon-flashcards-workshop-site/refs/heads/main/src/topics.json"
 
-const QAsURL = "https://raw.githubusercontent.com/[your GitHub handle]/fabcon-flashcards-workshop-site/refs/heads/main/src/generated-QAs.json"
+const QAsURL = "https://raw.githubusercontent.com/pranshujaryal/fabcon-flashcards-workshop-site/refs/heads/main/src/generated-QAs.json"
 
 const startingTopic = "get-started-lakehouses"
 const startingModuleTitle = "Get started with lakehouses in Microsoft Fabric"
