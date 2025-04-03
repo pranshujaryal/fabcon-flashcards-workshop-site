@@ -8,9 +8,11 @@ import { useEffect } from "react"
 
 // const topicsURL = "https://fabconworkshopalvidela.blob.core.windows.net/$web/topics.json"
 // const topicsURL = "https://workshoptestst.blob.core.windows.net/$web/topics.json"
-const topicsURL = "https://raw.githubusercontent.com/videlalvaro/fabcon-flashcards-workshop-site/refs/heads/main/src/topics.json"
-// const QAsURL = "https://fabconworkshopalvidela.blob.core.windows.net/$web/generated-QAs.json"
-const QAsURL = "https://raw.githubusercontent.com/videlalvaro/fabcon-flashcards-workshop-site/refs/heads/main/src/generated-QAs.json"
+const topicsURL = "https://raw.githubusercontent.com/[your GitHub handle]/fabcon-flashcards-workshop-site/refs/heads/main/src/topics.json"
+
+const QAsURL = "https://raw.githubusercontent.com/[your GitHub handle]/fabcon-flashcards-workshop-site/refs/heads/main/src/generated-QAs.json"
+
+
 
 const startingTopic = "get-started-lakehouses"
 const startingModuleTitle = "Get started with lakehouses in Microsoft Fabric"
